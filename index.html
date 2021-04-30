@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tdd lab</title>
+</head>
+<body>
+    <div class="wrapper">
+      <div id="title">
+        <h1>Pig Latin Translator</h1>
+      </div>
+      <div class="container">
+        <div>
+          <label for="english">Enter a Word or Phrase Here</label>
+           <textarea id="inputText" name="english" onkeypress="process(event, this)"></textarea>
+        </div>
+        <button id="Button">Translate</button>
+        <div>
+          <label for="pigLatin">Pig Latin Translation:</label>
+           <textarea id="outputText" name="pigLatin"></textarea>
+        </div>
+      </div>
+      
+    <script src="script.js"></script>
+</body>
+</html>
